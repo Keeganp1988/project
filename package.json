@@ -16,7 +16,7 @@
     "@react-navigation/stack": "^6.4.1",
     "@types/react": "~19.0.10",
     "expo": "^53.0.12",
-    "expo-asset": "~11.1.5",
+    "expo-asset": "^11.1.6",
     "expo-battery": "~9.1.4",
     "expo-font": "~13.3.1",
     "expo-location": "~18.1.5",
@@ -55,8 +55,7 @@
           "react-native-maps@1.20.1",
           "react-native-paper@5.14.5",
           "react-native-safe-area-context@5.4.0",
-          "react-native-gesture-handler@~2.24.0",
-          "expo-asset@~11.1.5"
+          "react-native-gesture-handler@~2.24.0"
         ]
       },
       "resolutions": {
