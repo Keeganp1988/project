@@ -14,7 +14,7 @@
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "@types/react": "~19.0.10",
+    "@types/react": "^19.0.0",
     "expo": "^53.0.12",
     "expo-asset": "~11.1.5",
     "expo-battery": "~9.1.4",
