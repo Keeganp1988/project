@@ -14,7 +14,7 @@
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "@types/react": "^18.2.0",
+    "@types/react": "~19.0.10",
     "expo": "^53.0.12",
     "expo-asset": "~11.1.5",
     "expo-battery": "~9.1.4",
@@ -35,11 +35,6 @@
     "react-native-safe-area-context": "5.4.0",
     "typescript": "^5.8.3"
   },
-  "overrides": {
-    "react-native": {
-      "react": "^18.3.1"
-    }
-  },
   "devDependencies": {
     "@expo/metro-config": "^0.20.0",
     "@tsconfig/react-native": "^3.0.6",
@@ -54,7 +49,6 @@
       },
       "install": {
         "exclude": [
-          "react@18.3.1",
           "react-native@0.79.4",
           "expo@53.0.12",
           "react-native-maps@1.20.1",
@@ -67,7 +61,6 @@
         "inflight": "^1.0.7",
         "rimraf": "^5.0.5",
         "glob": "^10.4.5",
-        "react": "18.3.1",
         "react-native-renderer": "18.3.1"
       }
     }
