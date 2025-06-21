@@ -14,9 +14,9 @@
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "@types/react": "~19.0.10",
+    "@types/react": "^18.2.0",
     "expo": "^53.0.12",
-    "expo-asset": "^11.1.6",
+    "expo-asset": "~11.1.5",
     "expo-battery": "~9.1.4",
     "expo-font": "~13.3.1",
     "expo-location": "~18.1.5",
@@ -34,6 +34,11 @@
     "react-native-paper": "^5.14.5",
     "react-native-safe-area-context": "5.4.0",
     "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "react-native": {
+      "react": "^18.3.1"
+    }
   },
   "devDependencies": {
     "@expo/metro-config": "^0.20.0",
