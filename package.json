@@ -1,0 +1,71 @@
+{
+  "name": "circlelink",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "dev": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^10.0.0",
+    "@expo/vector-icons": "^14.0.2",
+    "@react-native-async-storage/async-storage": "1.24.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "@types/react": "~19.0.10",
+    "expo": "^53.0.12",
+    "expo-asset": "~11.1.5",
+    "expo-battery": "~9.1.4",
+    "expo-font": "~13.3.1",
+    "expo-location": "~18.1.5",
+    "expo-notifications": "~0.31.3",
+    "expo-sensors": "^14.1.4",
+    "expo-status-bar": "~2.2.3",
+    "firebase": "^11.9.0",
+    "metro": "^0.82.0",
+    "metro-react-native-babel-transformer": "^0.77.0",
+    "react": "^18.3.1",
+    "react-native": "^0.79.4",
+    "react-native-dotenv": "^3.4.9",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-maps": "1.20.1",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "5.4.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@expo/metro-config": "^0.20.0",
+    "@tsconfig/react-native": "^3.0.6",
+    "@types/jest": "^29.5.3",
+    "metro": "^0.82.0",
+    "metro-minify-terser": "^0.80.4"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      },
+      "install": {
+        "exclude": [
+          "react@18.3.1",
+          "react-native@0.79.4",
+          "expo@53.0.12",
+          "react-native-maps@1.20.1",
+          "react-native-paper@5.14.5",
+          "react-native-safe-area-context@5.4.0",
+          "react-native-gesture-handler@~2.24.0",
+          "expo-asset@~11.1.5"
+        ]
+      },
+      "resolutions": {
+        "inflight": "^1.0.7",
+        "rimraf": "^5.0.5",
+        "glob": "^10.4.5",
+        "react": "18.3.1",
+        "react-native-renderer": "18.3.1"
+      }
+    }
+  }
+}
